@@ -17,7 +17,7 @@ max_teams = min(len(singers), len(dancers), len(actors))
 
 print(max_teams)
 
-for _ in range(max_teams):
+for j in range(max_teams):
     print(singers.pop(0), dancers.pop(0), actors.pop(0))
 
 
