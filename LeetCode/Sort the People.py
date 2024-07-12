@@ -1,3 +1,4 @@
+#using Bubble Sort
 class Solution(object):
     def sortPeople(self, names, heights):
         n = len(names)
